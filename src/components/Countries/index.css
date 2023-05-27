@@ -1,0 +1,28 @@
+.countries-list {
+  list-style-type: none;
+  border: 1px solid white;
+  border-radius: 10px;
+  height: 55vh;
+  overflow-y: auto;
+}
+.each-country {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid white;
+  align-items: center;
+}
+
+.visit-button {
+  background-color: #3b82f6;
+  color: white;
+  border-width: 0px;
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+
+.visited-button {
+  background-color: transparent;
+  color: white;
+  border-width: 0px;
+}

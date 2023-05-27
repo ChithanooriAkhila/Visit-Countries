@@ -1,0 +1,31 @@
+.heading {
+  text-align: center;
+  vertical-align: center;
+}
+.visited-countries-container {
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+.country-image {
+  width: 200px;
+  height: 100px;
+}
+
+.visited-country {
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.remove-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.remove-button {
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+  border: 1px solid white;
+}
